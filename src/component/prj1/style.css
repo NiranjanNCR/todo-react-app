@@ -1,0 +1,73 @@
+*{
+background-color: rgb(31, 30, 30);
+}
+.main-div{
+    text-align: center;
+    color: white;
+    
+}
+.child-div{
+    /* border: 2px solid red; */
+}
+.addItems{
+    /* border: 1px solid blue */
+}
+.form-control{
+    border: 1px solid rgb(0, 255, 191);
+    background-color: white;
+    height: 35px;
+    width: 250px;
+    
+}
+.add-btn{
+color: gray;
+background-color: white;
+/* border: 1px solid red; */
+margin-left: -25px;
+font-size: 20px;
+}
+
+button{
+    background-color: white;
+    margin-top: 30px;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    height: 30px;
+    width: 140px;
+}
+button:hover{
+    background-color: rgb(51, 248, 12);
+color:rgb(249, 246, 246);
+
+}
+button.data-sm-link-text:hover{
+    color: yellow;
+}
+.add-btn1{
+    /* margin: 0px; */
+    margin-left: -40px;
+    margin-top: 10px;
+background-color: rgb(0, 98, 255);
+}
+
+.add-btn1:hover{
+    /* margin: 0px; */
+    margin-left: -40px;
+color: rgb(0, 255, 13);
+}
+.eachItem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.eachItem h3{
+    /* border: 1px solid red; */
+    background-color: rgb(0, 98, 255);
+    width: 250px;
+    height: 35px;
+    text-align: center;
+    margin-left: -50px;
+    margin-bottom: 0px;
+    margin-top: 15px;
+}
